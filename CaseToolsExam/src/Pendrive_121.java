@@ -1,3 +1,4 @@
+//rbca-20-121
 
 public class Pendrive_121 {
 
@@ -6,6 +7,11 @@ public class Pendrive_121 {
 	void Pendrive (int size)
 	{
 		this.size= size;
+	}
+	
+	int get_size()
+	{
+		return size;
 	}
 	
 	public static void main(String[] args) {
